@@ -1,0 +1,40 @@
+body{
+    background:
+            linear-gradient(to bottom right,
+            transparent 0%,
+            #7f99b6 50%,
+
+            transparent 100%
+            );
+    background-size:cover;
+    font-size: 16px;
+}
+.form{
+    background: rgba(255,255,255,0.2);
+    width:400px;
+    margin:200px auto;
+}
+
+#form-head{
+    width: 100%;
+}
+
+#login_form{
+    width: 400px;
+}
+
+.fa{
+    display: inline-block;
+    top: 27px;
+    left: 6px;
+    position: relative;
+    color: #ccc;
+}
+input[type="text"],input[type="password"]{
+    height: 50px;
+    padding-left:10px;
+}
+
+#login_btn{
+    width: 100%;
+}
